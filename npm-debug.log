@@ -1,0 +1,2578 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   '-g',
+verbose cli   'browserify' ]
+info using npm@1.1.1
+info using node@v0.6.11
+verbose config file C:\Users\AvilaC\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm 755
+verbose cache add [ 'browserify', null ]
+silly cache add: name, spec, args [ undefined, 'browserify', [ 'browserify', null ] ]
+verbose parsed url { pathname: 'browserify',
+verbose parsed url   path: 'browserify',
+verbose parsed url   href: 'browserify' }
+verbose addNamed [ 'browserify', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'browserify', '', false ]
+verbose raw, before any munging browserify
+verbose url resolving [ 'http://registry.npmjs.org/', './browserify' ]
+verbose url resolved http://registry.npmjs.org/browserify
+http GET http://registry.npmjs.org/browserify
+http 200 http://registry.npmjs.org/browserify
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"6M2052UP85C5Q4PYHWCBS9RTS"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:09 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '206380',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify 755
+silly name, range, hasData 2 [ 'browserify', '', true ]
+silly versions [ 'browserify',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.2.9',
+silly versions     '0.2.10',
+silly versions     '0.2.11',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3',
+silly versions     '0.3.4',
+silly versions     '0.3.5',
+silly versions     '0.3.6',
+silly versions     '0.3.7',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.4.3',
+silly versions     '0.4.4',
+silly versions     '0.4.5',
+silly versions     '0.4.6',
+silly versions     '0.4.7',
+silly versions     '0.4.8',
+silly versions     '0.4.9',
+silly versions     '0.4.10',
+silly versions     '0.4.11',
+silly versions     '0.4.12',
+silly versions     '0.4.13',
+silly versions     '0.4.14',
+silly versions     '0.4.15',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '1.0.0',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.1.2',
+silly versions     '1.1.3',
+silly versions     '1.1.4',
+silly versions     '1.2.0',
+silly versions     '1.2.1',
+silly versions     '1.2.2',
+silly versions     '1.2.3',
+silly versions     '1.2.4',
+silly versions     '1.2.5',
+silly versions     '1.2.6',
+silly versions     '1.2.7',
+silly versions     '1.2.8',
+silly versions     '1.2.9',
+silly versions     '1.3.0',
+silly versions     '1.4.0',
+silly versions     '1.4.1',
+silly versions     '1.4.2',
+silly versions     '1.4.3',
+silly versions     '1.4.4',
+silly versions     '1.4.5',
+silly versions     '1.4.6',
+silly versions     '1.4.7',
+silly versions     '1.4.8',
+silly versions     '1.5.0',
+silly versions     '1.6.0',
+silly versions     '1.6.1',
+silly versions     '1.7.0',
+silly versions     '1.7.1',
+silly versions     '1.7.2',
+silly versions     '1.7.3',
+silly versions     '1.7.4',
+silly versions     '1.7.5',
+silly versions     '1.7.6',
+silly versions     '1.7.7',
+silly versions     '1.8.0',
+silly versions     '1.8.1',
+silly versions     '1.8.2',
+silly versions     '1.8.3',
+silly versions     '1.9.0',
+silly versions     '1.9.1',
+silly versions     '1.9.2',
+silly versions     '1.9.3',
+silly versions     '1.9.4',
+silly versions     '1.10.0',
+silly versions     '1.10.1',
+silly versions     '1.10.2',
+silly versions     '1.10.3',
+silly versions     '1.10.4',
+silly versions     '1.10.5',
+silly versions     '1.10.6',
+silly versions     '1.10.7',
+silly versions     '1.10.8',
+silly versions     '1.10.9',
+silly versions     '1.10.11',
+silly versions     '1.10.12',
+silly versions     '1.10.13',
+silly versions     '1.10.14',
+silly versions     '1.10.15',
+silly versions     '1.10.16',
+silly versions     '1.10.17',
+silly versions     '1.11.0',
+silly versions     '1.11.1',
+silly versions     '1.12.0',
+silly versions     '1.12.1',
+silly versions     '1.12.2',
+silly versions     '1.12.3',
+silly versions     '1.13.0',
+silly versions     '1.13.1',
+silly versions     '1.13.2',
+silly versions     '1.13.3',
+silly versions     '1.13.4',
+silly versions     '1.13.5',
+silly versions     '1.13.6',
+silly versions     '1.13.8',
+silly versions     '1.13.9',
+silly versions     '1.13.10',
+silly versions     '1.14.0',
+silly versions     '1.14.1',
+silly versions     '1.14.2',
+silly versions     '1.14.3',
+silly versions     '1.14.4',
+silly versions     '1.14.5',
+silly versions     '1.15.0',
+silly versions     '1.15.1',
+silly versions     '1.15.2',
+silly versions     '1.15.3',
+silly versions     '1.15.4',
+silly versions     '1.15.5',
+silly versions     '1.15.6',
+silly versions     '1.16.0',
+silly versions     '1.16.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'f3f1c68ab48919daffdc66465556b7959adb6efe',
+verbose bin dist     tarball: 'http://registry.npmjs.org/browserify/-/browserify-1.16.1.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/browserify/-/browserify-1.16.1.tgz',
+verbose addRemoteTarball   'f3f1c68ab48919daffdc66465556b7959adb6efe' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071 755
+http GET http://registry.npmjs.org/browserify/-/browserify-1.16.1.tgz
+http 200 http://registry.npmjs.org/browserify/-/browserify-1.16.1.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 9055
+info shasum f3f1c68ab48919daffdc66465556b7959adb6efe
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298473716-0.9627258547116071\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298473716-0.9627258547116071\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\package\package.json
+verbose loadDefaults browserify@1.16.1
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\package C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298473716-0.9627258547116071\\package',
+silly dir, dirLen   94 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298473716-0.9627258547116071\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\browserify\\1.16.1\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\browserify\\1.16.1\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\package\package.json
+verbose loadDefaults browserify@1.16.1
+silly updated sha bytes 40960
+silly updated sha bytes 6758
+info shasum fff659ef7e7c2bb8178a0fd88e4d3c89ff0758fd
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\package.tgz
+silly resolved [ { name: 'browserify',
+silly resolved     version: '1.16.1',
+silly resolved     description: 'browser-side require() the node way',
+silly resolved     main: 'index.js',
+silly resolved     bin: { browserify: 'bin/cmd.js' },
+silly resolved     directories: { example: 'example', test: 'test' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-browserify.git' },
+silly resolved     keywords: 
+silly resolved      [ 'browser',
+silly resolved        'require',
+silly resolved        'middleware',
+silly resolved        'bundle',
+silly resolved        'npm',
+silly resolved        'coffee',
+silly resolved        'javascript' ],
+silly resolved     dependencies: 
+silly resolved      { detective: '~0.2.0',
+silly resolved        'buffer-browserify': '~0.0.1',
+silly resolved        deputy: '~0.0.3',
+silly resolved        'syntax-error': '~0.0.0',
+silly resolved        resolve: '~0.2.0',
+silly resolved        nub: '~0.0.0',
+silly resolved        commondir: '~0.0.1',
+silly resolved        'coffee-script': '1.x.x',
+silly resolved        optimist: '~0.3.4',
+silly resolved        'http-browserify': '~0.1.1',
+silly resolved        'vm-browserify': '~0.0.0',
+silly resolved        'crypto-browserify': '~0' },
+silly resolved     devDependencies: 
+silly resolved      { tap: '~0.2.5',
+silly resolved        connect: '1.8.5',
+silly resolved        hashish: '>=0.0.2 <0.1',
+silly resolved        traverse: '>=0.3.8 <0.4',
+silly resolved        backbone: '~0.9.2',
+silly resolved        dnode: '~0.9.11',
+silly resolved        jade: '0.20.0',
+silly resolved        seq: '0.3.3',
+silly resolved        'jquery-browserify': '*',
+silly resolved        lazy: '1.0.x',
+silly resolved        ecstatic: '~0.1.4',
+silly resolved        mkdirp: '~0.3.3' },
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     scripts: { test: 'node node_modules/tap/bin/tap.js test/*.js' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engine: { node: '>=0.6.0' },
+silly resolved     _id: 'browserify@1.16.1',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'fff659ef7e7c2bb8178a0fd88e4d3c89ff0758fd' } } ]
+info into C:\Users\AvilaC\AppData\Roaming\npm browserify@1.16.1
+info installOne browserify@1.16.1
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\browserify\1.16.1\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\___browserify.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\___browserify.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\___browserify.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\___browserify.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\package.json
+verbose loadDefaults browserify@1.16.1
+info preinstall browserify@1.16.1
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\package.json
+verbose cache add [ 'buffer-browserify@~0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'buffer-browserify@~0.0.1',
+silly cache add: name, spec, args   [ 'buffer-browserify@~0.0.1', null ] ]
+verbose parsed url { pathname: 'buffer-browserify@~0.0.1',
+verbose parsed url   path: 'buffer-browserify@~0.0.1',
+verbose parsed url   href: 'buffer-browserify@~0.0.1' }
+silly cache add: name, spec, args [ 'buffer-browserify',
+silly cache add: name, spec, args   '~0.0.1',
+silly cache add: name, spec, args   [ 'buffer-browserify', '~0.0.1' ] ]
+verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+verbose addNamed [ 'buffer-browserify', '~0.0.1' ]
+verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+silly name, range, hasData [ 'buffer-browserify', '>=0.0.1- <0.1.0-', false ]
+verbose cache add [ 'deputy@~0.0.3', null ]
+silly cache add: name, spec, args [ undefined, 'deputy@~0.0.3', [ 'deputy@~0.0.3', null ] ]
+verbose parsed url { pathname: 'deputy@~0.0.3',
+verbose parsed url   path: 'deputy@~0.0.3',
+verbose parsed url   href: 'deputy@~0.0.3' }
+silly cache add: name, spec, args [ 'deputy', '~0.0.3', [ 'deputy', '~0.0.3' ] ]
+verbose parsed url { pathname: '~0.0.3', path: '~0.0.3', href: '~0.0.3' }
+verbose addNamed [ 'deputy', '~0.0.3' ]
+verbose addNamed [ null, '>=0.0.3- <0.1.0-' ]
+silly name, range, hasData [ 'deputy', '>=0.0.3- <0.1.0-', false ]
+verbose cache add [ 'syntax-error@~0.0.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'syntax-error@~0.0.0',
+silly cache add: name, spec, args   [ 'syntax-error@~0.0.0', null ] ]
+verbose parsed url { pathname: 'syntax-error@~0.0.0',
+verbose parsed url   path: 'syntax-error@~0.0.0',
+verbose parsed url   href: 'syntax-error@~0.0.0' }
+silly cache add: name, spec, args [ 'syntax-error', '~0.0.0', [ 'syntax-error', '~0.0.0' ] ]
+verbose parsed url { pathname: '~0.0.0', path: '~0.0.0', href: '~0.0.0' }
+verbose addNamed [ 'syntax-error', '~0.0.0' ]
+verbose addNamed [ null, '>=0.0.0- <0.1.0-' ]
+silly name, range, hasData [ 'syntax-error', '>=0.0.0- <0.1.0-', false ]
+verbose cache add [ 'resolve@~0.2.0', null ]
+silly cache add: name, spec, args [ undefined, 'resolve@~0.2.0', [ 'resolve@~0.2.0', null ] ]
+verbose parsed url { pathname: 'resolve@~0.2.0',
+verbose parsed url   path: 'resolve@~0.2.0',
+verbose parsed url   href: 'resolve@~0.2.0' }
+silly cache add: name, spec, args [ 'resolve', '~0.2.0', [ 'resolve', '~0.2.0' ] ]
+verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+verbose addNamed [ 'resolve', '~0.2.0' ]
+verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+silly name, range, hasData [ 'resolve', '>=0.2.0- <0.3.0-', false ]
+verbose cache add [ 'nub@~0.0.0', null ]
+silly cache add: name, spec, args [ undefined, 'nub@~0.0.0', [ 'nub@~0.0.0', null ] ]
+verbose parsed url { pathname: 'nub@~0.0.0',
+verbose parsed url   path: 'nub@~0.0.0',
+verbose parsed url   href: 'nub@~0.0.0' }
+silly cache add: name, spec, args [ 'nub', '~0.0.0', [ 'nub', '~0.0.0' ] ]
+verbose parsed url { pathname: '~0.0.0', path: '~0.0.0', href: '~0.0.0' }
+verbose addNamed [ 'nub', '~0.0.0' ]
+verbose addNamed [ null, '>=0.0.0- <0.1.0-' ]
+silly name, range, hasData [ 'nub', '>=0.0.0- <0.1.0-', false ]
+verbose cache add [ 'commondir@~0.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'commondir@~0.0.1', [ 'commondir@~0.0.1', null ] ]
+verbose parsed url { pathname: 'commondir@~0.0.1',
+verbose parsed url   path: 'commondir@~0.0.1',
+verbose parsed url   href: 'commondir@~0.0.1' }
+silly cache add: name, spec, args [ 'commondir', '~0.0.1', [ 'commondir', '~0.0.1' ] ]
+verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+verbose addNamed [ 'commondir', '~0.0.1' ]
+verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+silly name, range, hasData [ 'commondir', '>=0.0.1- <0.1.0-', false ]
+verbose cache add [ 'coffee-script@1.x.x', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'coffee-script@1.x.x',
+silly cache add: name, spec, args   [ 'coffee-script@1.x.x', null ] ]
+verbose parsed url { pathname: 'coffee-script@1.x.x',
+verbose parsed url   path: 'coffee-script@1.x.x',
+verbose parsed url   href: 'coffee-script@1.x.x' }
+silly cache add: name, spec, args [ 'coffee-script', '1.x.x', [ 'coffee-script', '1.x.x' ] ]
+verbose parsed url { pathname: '1.x.x', path: '1.x.x', href: '1.x.x' }
+verbose addNamed [ 'coffee-script', '1.x.x' ]
+verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+silly name, range, hasData [ 'coffee-script', '>=1.0.0- <2.0.0-', false ]
+verbose cache add [ 'optimist@~0.3.4', null ]
+silly cache add: name, spec, args [ undefined, 'optimist@~0.3.4', [ 'optimist@~0.3.4', null ] ]
+verbose parsed url { pathname: 'optimist@~0.3.4',
+verbose parsed url   path: 'optimist@~0.3.4',
+verbose parsed url   href: 'optimist@~0.3.4' }
+silly cache add: name, spec, args [ 'optimist', '~0.3.4', [ 'optimist', '~0.3.4' ] ]
+verbose parsed url { pathname: '~0.3.4', path: '~0.3.4', href: '~0.3.4' }
+verbose addNamed [ 'optimist', '~0.3.4' ]
+verbose addNamed [ null, '>=0.3.4- <0.4.0-' ]
+silly name, range, hasData [ 'optimist', '>=0.3.4- <0.4.0-', false ]
+verbose cache add [ 'http-browserify@~0.1.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'http-browserify@~0.1.1',
+silly cache add: name, spec, args   [ 'http-browserify@~0.1.1', null ] ]
+verbose parsed url { pathname: 'http-browserify@~0.1.1',
+verbose parsed url   path: 'http-browserify@~0.1.1',
+verbose parsed url   href: 'http-browserify@~0.1.1' }
+silly cache add: name, spec, args [ 'http-browserify', '~0.1.1', [ 'http-browserify', '~0.1.1' ] ]
+verbose parsed url { pathname: '~0.1.1', path: '~0.1.1', href: '~0.1.1' }
+verbose addNamed [ 'http-browserify', '~0.1.1' ]
+verbose addNamed [ null, '>=0.1.1- <0.2.0-' ]
+silly name, range, hasData [ 'http-browserify', '>=0.1.1- <0.2.0-', false ]
+verbose raw, before any munging buffer-browserify
+verbose url resolving [ 'http://registry.npmjs.org/', './buffer-browserify' ]
+verbose url resolved http://registry.npmjs.org/buffer-browserify
+http GET http://registry.npmjs.org/buffer-browserify
+verbose raw, before any munging deputy
+verbose url resolving [ 'http://registry.npmjs.org/', './deputy' ]
+verbose url resolved http://registry.npmjs.org/deputy
+http GET http://registry.npmjs.org/deputy
+verbose raw, before any munging syntax-error
+verbose url resolving [ 'http://registry.npmjs.org/', './syntax-error' ]
+verbose url resolved http://registry.npmjs.org/syntax-error
+http GET http://registry.npmjs.org/syntax-error
+verbose raw, before any munging resolve
+verbose url resolving [ 'http://registry.npmjs.org/', './resolve' ]
+verbose url resolved http://registry.npmjs.org/resolve
+http GET http://registry.npmjs.org/resolve
+verbose raw, before any munging nub
+verbose url resolving [ 'http://registry.npmjs.org/', './nub' ]
+verbose url resolved http://registry.npmjs.org/nub
+http GET http://registry.npmjs.org/nub
+verbose raw, before any munging commondir
+verbose url resolving [ 'http://registry.npmjs.org/', './commondir' ]
+verbose url resolved http://registry.npmjs.org/commondir
+http GET http://registry.npmjs.org/commondir
+verbose raw, before any munging http-browserify
+verbose url resolving [ 'http://registry.npmjs.org/', './http-browserify' ]
+verbose url resolved http://registry.npmjs.org/http-browserify
+http GET http://registry.npmjs.org/http-browserify
+verbose cache add [ 'vm-browserify@~0.0.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'vm-browserify@~0.0.0',
+silly cache add: name, spec, args   [ 'vm-browserify@~0.0.0', null ] ]
+verbose parsed url { pathname: 'vm-browserify@~0.0.0',
+verbose parsed url   path: 'vm-browserify@~0.0.0',
+verbose parsed url   href: 'vm-browserify@~0.0.0' }
+silly cache add: name, spec, args [ 'vm-browserify', '~0.0.0', [ 'vm-browserify', '~0.0.0' ] ]
+verbose parsed url { pathname: '~0.0.0', path: '~0.0.0', href: '~0.0.0' }
+verbose addNamed [ 'vm-browserify', '~0.0.0' ]
+verbose addNamed [ null, '>=0.0.0- <0.1.0-' ]
+silly name, range, hasData [ 'vm-browserify', '>=0.0.0- <0.1.0-', false ]
+verbose cache add [ 'crypto-browserify@~0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'crypto-browserify@~0',
+silly cache add: name, spec, args   [ 'crypto-browserify@~0', null ] ]
+verbose parsed url { pathname: 'crypto-browserify@~0',
+verbose parsed url   path: 'crypto-browserify@~0',
+verbose parsed url   href: 'crypto-browserify@~0' }
+silly cache add: name, spec, args [ 'crypto-browserify', '~0', [ 'crypto-browserify', '~0' ] ]
+verbose parsed url { pathname: '~0', path: '~0', href: '~0' }
+verbose addNamed [ 'crypto-browserify', '~0' ]
+verbose addNamed [ null, '>=0.0.0- <1.0.0-' ]
+silly name, range, hasData [ 'crypto-browserify', '>=0.0.0- <1.0.0-', false ]
+verbose cache add [ 'detective@~0.2.0', null ]
+silly cache add: name, spec, args [ undefined, 'detective@~0.2.0', [ 'detective@~0.2.0', null ] ]
+verbose parsed url { pathname: 'detective@~0.2.0',
+verbose parsed url   path: 'detective@~0.2.0',
+verbose parsed url   href: 'detective@~0.2.0' }
+silly cache add: name, spec, args [ 'detective', '~0.2.0', [ 'detective', '~0.2.0' ] ]
+verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+verbose addNamed [ 'detective', '~0.2.0' ]
+verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+silly name, range, hasData [ 'detective', '>=0.2.0- <0.3.0-', false ]
+verbose raw, before any munging vm-browserify
+verbose url resolving [ 'http://registry.npmjs.org/', './vm-browserify' ]
+verbose url resolved http://registry.npmjs.org/vm-browserify
+http GET http://registry.npmjs.org/vm-browserify
+verbose raw, before any munging crypto-browserify
+verbose url resolving [ 'http://registry.npmjs.org/', './crypto-browserify' ]
+verbose url resolved http://registry.npmjs.org/crypto-browserify
+http GET http://registry.npmjs.org/crypto-browserify
+verbose raw, before any munging optimist
+verbose url resolving [ 'http://registry.npmjs.org/', './optimist' ]
+verbose url resolved http://registry.npmjs.org/optimist
+verbose etag "3T2VRAGARMNNMM78O3SHRX2OV"
+http GET http://registry.npmjs.org/optimist
+verbose raw, before any munging coffee-script
+verbose url resolving [ 'http://registry.npmjs.org/', './coffee-script' ]
+verbose url resolved http://registry.npmjs.org/coffee-script
+verbose etag "7Z1ACAW0IKO6D0UZNNM17S1R0"
+http GET http://registry.npmjs.org/coffee-script
+verbose raw, before any munging detective
+verbose url resolving [ 'http://registry.npmjs.org/', './detective' ]
+verbose url resolved http://registry.npmjs.org/detective
+verbose etag "9GWLBQIMIM8OD48HK3SPF53AK"
+http GET http://registry.npmjs.org/detective
+http 200 http://registry.npmjs.org/nub
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7JW2RBX0FQPR2J4QLH0YIV9XC"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:11 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1190',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\nub'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\nub 755
+silly name, range, hasData 2 [ 'nub', '>=0.0.0- <0.1.0-', true ]
+silly versions [ 'nub', [ '0.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'b369bd32bdde66af59605c3b0520bc219dccc04f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/nub/-/nub-0.0.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/nub/-/nub-0.0.0.tgz',
+verbose addRemoteTarball   'b369bd32bdde66af59605c3b0520bc219dccc04f' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484 755
+http GET http://registry.npmjs.org/nub/-/nub-0.0.0.tgz
+http 200 http://registry.npmjs.org/buffer-browserify
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"43SHKW03NFH7YIYRZBTU5XZCM"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:11 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '4127',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify 755
+silly name, range, hasData 2 [ 'buffer-browserify', '>=0.0.1- <0.1.0-', true ]
+silly versions [ 'buffer-browserify', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'deccd54e1a4403bc23a6664e526a3ab9b201560f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/buffer-browserify/-/buffer-browserify-0.0.3.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/buffer-browserify/-/buffer-browserify-0.0.3.tgz',
+verbose addRemoteTarball   'deccd54e1a4403bc23a6664e526a3ab9b201560f' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086 755
+http 200 http://registry.npmjs.org/deputy
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"54X34IDSRTDYRE03T4CYO5X3Q"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:11 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '4958',
+silly get cb     connection: 'Keep-Alive' } ]
+http 200 http://registry.npmjs.org/syntax-error
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"2ZQWV6DCR3CI1PW17GMCO45DT"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:11 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1409',
+silly get cb     connection: 'Keep-Alive' } ]
+http GET http://registry.npmjs.org/buffer-browserify/-/buffer-browserify-0.0.3.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error'
+http 200 http://registry.npmjs.org/resolve
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"8TN76CCKOXK0NY3KTQZXVCDCO"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:11 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '11172',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy 755
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve'
+silly name, range, hasData 2 [ 'syntax-error', '>=0.0.0- <0.1.0-', true ]
+silly versions [ 'syntax-error', [ '0.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'd9cf0cd424167bd94223709503d36299ad7c6f4b',
+verbose bin dist     tarball: 'http://registry.npmjs.org/syntax-error/-/syntax-error-0.0.0.tgz' } ]
+silly name, range, hasData 2 [ 'deputy', '>=0.0.3- <0.1.0-', true ]
+silly versions [ 'deputy', [ '0.0.0', '0.0.1', '0.0.2', '0.0.3', '0.0.4' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'edc00a9ef5c53527c405328534c99795ada41cbf',
+verbose bin dist     tarball: 'http://registry.npmjs.org/deputy/-/deputy-0.0.4.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/syntax-error/-/syntax-error-0.0.0.tgz',
+verbose addRemoteTarball   'd9cf0cd424167bd94223709503d36299ad7c6f4b' ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve 755
+verbose addRemoteTarball [ 'http://registry.npmjs.org/deputy/-/deputy-0.0.4.tgz',
+verbose addRemoteTarball   'edc00a9ef5c53527c405328534c99795ada41cbf' ]
+silly name, range, hasData 2 [ 'resolve', '>=0.2.0- <0.3.0-', true ]
+silly versions [ 'resolve',
+silly versions   [ '0.0.0',
+silly versions     '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.1.0',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'f1eb7fb76436f91d87fd19c5f973fe7d506f6571',
+verbose bin dist     tarball: 'http://registry.npmjs.org/resolve/-/resolve-0.2.3.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/resolve/-/resolve-0.2.3.tgz',
+verbose addRemoteTarball   'f1eb7fb76436f91d87fd19c5f973fe7d506f6571' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\tmp.tgz
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272 755
+http GET http://registry.npmjs.org/syntax-error/-/syntax-error-0.0.0.tgz
+http GET http://registry.npmjs.org/deputy/-/deputy-0.0.4.tgz
+http GET http://registry.npmjs.org/resolve/-/resolve-0.2.3.tgz
+http 200 http://registry.npmjs.org/commondir
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"B20AAK8Y98IO82AEG7P2O0797"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:11 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '2297',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir 755
+silly name, range, hasData 2 [ 'commondir', '>=0.0.1- <0.1.0-', true ]
+silly versions [ 'commondir', [ '0.0.0', '0.0.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '89f00fdcd51b519c578733fec563e6a6da7f5be2',
+verbose bin dist     tarball: 'http://registry.npmjs.org/commondir/-/commondir-0.0.1.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/commondir/-/commondir-0.0.1.tgz',
+verbose addRemoteTarball   '89f00fdcd51b519c578733fec563e6a6da7f5be2' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373 755
+http GET http://registry.npmjs.org/commondir/-/commondir-0.0.1.tgz
+http 200 http://registry.npmjs.org/http-browserify
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"BCURJFP4APUD5T610C422TH8"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '10896',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify 755
+http 200 http://registry.npmjs.org/crypto-browserify
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"E99WD3DBUPEQ00Y6LU6DB6553"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '3874',
+silly get cb     connection: 'Keep-Alive' } ]
+silly name, range, hasData 2 [ 'http-browserify', '>=0.1.1- <0.2.0-', true ]
+silly versions [ 'http-browserify',
+silly versions   [ '0.0.0',
+silly versions     '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'a40fa20cdb959e86d4c707d347ccc317e9f4d102',
+verbose bin dist     tarball: 'http://registry.npmjs.org/http-browserify/-/http-browserify-0.1.3.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/http-browserify/-/http-browserify-0.1.3.tgz',
+verbose addRemoteTarball   'a40fa20cdb959e86d4c707d347ccc317e9f4d102' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify 755
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913'
+http 200 http://registry.npmjs.org/vm-browserify
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"D7GXXG6U42J0PR0MG92R2ORXL"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '2406',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913 755
+silly name, range, hasData 2 [ 'crypto-browserify', '>=0.0.0- <1.0.0-', true ]
+silly versions [ 'crypto-browserify', [ '0.0.0', '0.0.1', '0.1.0', '0.1.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '34343b512041a9c32ae7ec6a7f8ab4d06b418a0b',
+verbose bin dist     tarball: 'http://registry.npmjs.org/crypto-browserify/-/crypto-browserify-0.1.1.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/crypto-browserify/-/crypto-browserify-0.1.1.tgz',
+verbose addRemoteTarball   '34343b512041a9c32ae7ec6a7f8ab4d06b418a0b' ]
+http GET http://registry.npmjs.org/http-browserify/-/http-browserify-0.1.3.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify 755
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\tmp.tgz
+silly name, range, hasData 2 [ 'vm-browserify', '>=0.0.0- <0.1.0-', true ]
+silly versions [ 'vm-browserify', [ '0.0.0', '0.0.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '51d25979366ab219dfe35a3fc65ecd6af3631d54',
+verbose bin dist     tarball: 'http://registry.npmjs.org/vm-browserify/-/vm-browserify-0.0.1.tgz' } ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276 755
+verbose addRemoteTarball [ 'http://registry.npmjs.org/vm-browserify/-/vm-browserify-0.0.1.tgz',
+verbose addRemoteTarball   '51d25979366ab219dfe35a3fc65ecd6af3631d54' ]
+http GET http://registry.npmjs.org/crypto-browserify/-/crypto-browserify-0.1.1.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411 755
+http GET http://registry.npmjs.org/vm-browserify/-/vm-browserify-0.0.1.tgz
+http 200 http://registry.npmjs.org/optimist
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3T2VRAGARMNNMM78O3SHRX2OV"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '36111',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist 755
+silly name, range, hasData 2 [ 'optimist', '>=0.3.4- <0.4.0-', true ]
+silly versions [ 'optimist',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.0.3',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.3',
+silly versions     '0.3.4',
+silly versions     '0.3.5' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '03654b52417030312d109f39b159825b60309304',
+verbose bin dist     tarball: 'http://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz',
+verbose addRemoteTarball   '03654b52417030312d109f39b159825b60309304' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043 755
+http 200 http://registry.npmjs.org/coffee-script
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"ESZQCOM8YM1Y9HYG857TA69QC"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '21186',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script 755
+silly name, range, hasData 2 [ 'coffee-script', '>=1.0.0- <2.0.0-', true ]
+silly versions [ 'coffee-script',
+silly versions   [ '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.9.4',
+silly versions     '0.9.5',
+silly versions     '0.9.6',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.1.2',
+silly versions     '1.1.3',
+silly versions     '1.2.0',
+silly versions     '1.3.0',
+silly versions     '1.3.1',
+silly versions     '1.3.2',
+silly versions     '1.3.3',
+silly versions     '1.4.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '5e3bc8aac26c01a8e27bf107722c5655f5ad7d36',
+verbose bin dist     tarball: 'http://registry.npmjs.org/coffee-script/-/coffee-script-1.4.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/coffee-script/-/coffee-script-1.4.0.tgz',
+verbose addRemoteTarball   '5e3bc8aac26c01a8e27bf107722c5655f5ad7d36' ]
+http GET http://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318 755
+http GET http://registry.npmjs.org/coffee-script/-/coffee-script-1.4.0.tgz
+http 200 http://registry.npmjs.org/buffer-browserify/-/buffer-browserify-0.0.3.tgz
+http 200 http://registry.npmjs.org/detective
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3JJ02V4NZM8BPRZBOONWBU5IZ"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '9013',
+silly get cb     connection: 'Keep-Alive' } ]
+http 200 http://registry.npmjs.org/nub/-/nub-0.0.0.tgz
+silly updated sha bytes 8253
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\detective 755
+info shasum deccd54e1a4403bc23a6664e526a3ab9b201560f
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\tmp.tgz
+silly updated sha bytes 1752
+info shasum b369bd32bdde66af59605c3b0520bc219dccc04f
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\tmp.tgz
+silly name, range, hasData 2 [ 'detective', '>=0.2.0- <0.3.0-', true ]
+silly versions [ 'detective',
+silly versions   [ '0.0.0',
+silly versions     '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.2.0',
+silly versions     '0.2.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '9ce92601fd223810c29432ad034f8c62d8b8654f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/detective/-/detective-0.2.1.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/detective/-/detective-0.2.1.tgz',
+verbose addRemoteTarball   '9ce92601fd223810c29432ad034f8c62d8b8654f' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\___package.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145 755
+http GET http://registry.npmjs.org/detective/-/detective-0.2.1.tgz
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\package
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\___package.npm\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475558-0.951759778894484\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475558-0.951759778894484\\package' ]
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\package
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\package\package.json
+verbose loadDefaults nub@0.0.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475594-0.41261057765223086\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475594-0.41261057765223086\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\package\package.json
+verbose loadDefaults buffer-browserify@0.0.3
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\package C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\package
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475558-0.951759778894484\\package',
+silly dir, dirLen   93 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475558-0.951759778894484\package
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\package C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475594-0.41261057765223086\\package',
+silly dir, dirLen   95 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475594-0.41261057765223086\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\nub\\0.0.0\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\nub\\0.0.0\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\package\package.json
+verbose loadDefaults nub@0.0.0
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\___package.npm'
+silly updated sha bytes 1769
+info shasum e3d3b604b290a71c2657571a7761d63db14befa2
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\package.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\buffer-browserify\\0.0.3\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\buffer-browserify\\0.0.3\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\package\package.json
+verbose loadDefaults buffer-browserify@0.0.3
+silly updated sha bytes 8240
+info shasum 7497f470422e66147689b5b75c7dbc6458a10167
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\package.tgz
+http 200 http://registry.npmjs.org/syntax-error/-/syntax-error-0.0.0.tgz
+silly updated sha bytes 2792
+info shasum d9cf0cd424167bd94223709503d36299ad7c6f4b
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\package
+silly gunzTarPerm modes [ '755', '644' ]
+http 200 http://registry.npmjs.org/deputy/-/deputy-0.0.4.tgz
+silly updated sha bytes 1870
+info shasum edc00a9ef5c53527c405328534c99795ada41cbf
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\package
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475607-0.792863305658102\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475607-0.792863305658102\\package' ]
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475607-0.9244291014038026\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475607-0.9244291014038026\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\package\package.json
+verbose loadDefaults deputy@0.0.4
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\package\package.json
+verbose loadDefaults syntax-error@0.0.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\package C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\package
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\package C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475607-0.792863305658102\\package',
+silly dir, dirLen   93 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.792863305658102\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475607-0.9244291014038026\\package',
+silly dir, dirLen   94 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475607-0.9244291014038026\package
+http 200 http://registry.npmjs.org/resolve/-/resolve-0.2.3.tgz
+http 200 http://registry.npmjs.org/http-browserify/-/http-browserify-0.1.3.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\package
+silly gunzTarPerm modes [ '755', '644' ]
+http 200 http://registry.npmjs.org/commondir/-/commondir-0.0.1.tgz
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\package
+silly updated sha bytes 4528
+silly updated sha bytes 1618
+silly updated sha bytes 4266
+info shasum a40fa20cdb959e86d4c707d347ccc317e9f4d102
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\tmp.tgz
+info shasum 89f00fdcd51b519c578733fec563e6a6da7f5be2
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\tmp.tgz
+info shasum f1eb7fb76436f91d87fd19c5f973fe7d506f6571
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\___package.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\___package.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\___package.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\deputy\\0.0.4\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\deputy\\0.0.4\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\package\package.json
+verbose loadDefaults deputy@0.0.4
+silly updated sha bytes 1870
+info shasum b2da7859492b46a98fda3f42a9552f2957e8ef82
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\package.tgz
+http 200 http://registry.npmjs.org/crypto-browserify/-/crypto-browserify-0.1.1.tgz
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\package
+http 200 http://registry.npmjs.org/vm-browserify/-/vm-browserify-0.0.1.tgz
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\syntax-error\\0.0.0\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\syntax-error\\0.0.0\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\package\package.json
+verbose loadDefaults syntax-error@0.0.0
+silly updated sha bytes 2826
+info shasum 68ae55fa90e54a6a901618c563a402085c543f30
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\package.tgz
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475760-0.5107914798427373\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475760-0.5107914798427373\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\package\package.json
+verbose loadDefaults commondir@0.0.1
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\package C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475760-0.5107914798427373\\package',
+silly dir, dirLen   94 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475760-0.5107914798427373\package
+silly updated sha bytes 5840
+silly updated sha bytes 7576
+info shasum 51d25979366ab219dfe35a3fc65ecd6af3631d54
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\tmp.tgz
+info shasum 34343b512041a9c32ae7ec6a7f8ab4d06b418a0b
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\___package.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475825-0.7760815457440913\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475825-0.7760815457440913\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\package\package.json
+verbose loadDefaults http-browserify@0.1.3
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\package C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\package
+silly afterUntar undefined
+http 200 http://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475825-0.7760815457440913\\package',
+silly dir, dirLen   94 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475825-0.7760815457440913\package
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\___package.npm\package
+http 200 http://registry.npmjs.org/coffee-script/-/coffee-script-1.4.0.tgz
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475610-0.9860112678725272\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475610-0.9860112678725272\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\package\package.json
+verbose loadDefaults resolve@0.2.3
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+silly afterUntar undefined
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\___package.npm\package
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\package
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\package
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\package C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\package
+silly updated sha bytes 12463
+info shasum 03654b52417030312d109f39b159825b60309304
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\tmp.tgz
+http 200 http://registry.npmjs.org/detective/-/detective-0.2.1.tgz
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\commondir\\0.0.1\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\commondir\\0.0.1\\package' ]
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475830-0.6765320759732276\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475830-0.6765320759732276\\package' ]
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475835-0.09309561620466411\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475835-0.09309561620466411\\package' ]
+silly updated sha bytes 2641
+info shasum 9ce92601fd223810c29432ad034f8c62d8b8654f
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\___package.npm'
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\package\package.json
+verbose loadDefaults commondir@0.0.1
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\package\package.json
+verbose loadDefaults crypto-browserify@0.1.1
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\___package.npm 755
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\package\package.json
+verbose loadDefaults vm-browserify@0.0.1
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475610-0.9860112678725272\\package',
+silly dir, dirLen   94 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475610-0.9860112678725272\package
+silly updated sha bytes 1653
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+info shasum aba467a2cacdc885b2029f566acc3fbd779b6845
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\package.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\package C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\package
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\package C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475830-0.6765320759732276\\package',
+silly dir, dirLen   94 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475830-0.6765320759732276\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475835-0.09309561620466411\\package',
+silly dir, dirLen   95 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475835-0.09309561620466411\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly updated sha bytes 40960
+silly updated sha bytes 27314
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\___package.npm'
+info shasum 5e3bc8aac26c01a8e27bf107722c5655f5ad7d36
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298476074-0.07699589896947145\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298476074-0.07699589896947145\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\package\package.json
+verbose loadDefaults detective@0.2.1
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\package C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298476074-0.07699589896947145\\package',
+silly dir, dirLen   95 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476074-0.07699589896947145\package
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\vm-browserify\\0.0.1\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\vm-browserify\\0.0.1\\package' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\package
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\package\package.json
+verbose loadDefaults vm-browserify@0.0.1
+silly updated sha bytes 5781
+info shasum a307323a3056056317c5610ec904774a1c449249
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\package.tgz
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\crypto-browserify\\0.1.1\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\crypto-browserify\\0.1.1\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\package\package.json
+verbose loadDefaults crypto-browserify@0.1.1
+silly updated sha bytes 7531
+info shasum 602725962896f1c79aa96038e8e86f8204cb59db
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\package.tgz
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\package
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475988-0.38677897141315043\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475988-0.38677897141315043\\package' ]
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\http-browserify\\0.1.3\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\http-browserify\\0.1.3\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\package\package.json
+verbose loadDefaults optimist@0.3.5
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\package\package.json
+verbose loadDefaults http-browserify@0.1.3
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+silly updated sha bytes 4537
+info shasum e68575773e54e92119eaedb490236f8d9c4f2c44
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\package C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298475988-0.38677897141315043\\package',
+silly dir, dirLen   95 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298475988-0.38677897141315043\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\resolve\\0.2.3\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\resolve\\0.2.3\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\package\package.json
+verbose loadDefaults resolve@0.2.3
+silly updated sha bytes 4343
+info shasum 9c70639077245d66a85a02953ef52306b3b6ca19
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\package.tgz
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298476008-0.19389649131335318\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298476008-0.19389649131335318\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\package\package.json
+verbose loadDefaults coffee-script@1.4.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\package
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\package C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\___package.npm'
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\detective\\0.2.1\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\detective\\0.2.1\\package' ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\package\package.json
+verbose loadDefaults detective@0.2.1
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298476008-0.19389649131335318\\package',
+silly dir, dirLen   95 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298476008-0.19389649131335318\package
+silly updated sha bytes 2612
+info shasum fe91b36acb3c2adc197d91c7f91c5e80b7bc9891
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\package.tgz
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\optimist\\0.3.5\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\optimist\\0.3.5\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\package\package.json
+verbose loadDefaults optimist@0.3.5
+silly updated sha bytes 12395
+info shasum 43480ced0e22bfcbe2aa0cc098fbd9f70bf92688
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\package.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\coffee-script\\1.4.0\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\coffee-script\\1.4.0\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\package\package.json
+verbose loadDefaults coffee-script@1.4.0
+silly updated sha bytes 40960
+silly updated sha bytes 27080
+info shasum b654b586776b3319d51e462289f120925d0b6ae5
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\package.tgz
+silly resolved [ { name: 'nub',
+silly resolved     version: '0.0.0',
+silly resolved     description: 'Uniqueness functions',
+silly resolved     main: 'index.js',
+silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { expresso: '0.7.x' },
+silly resolved     scripts: { test: 'expresso' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/substack/node-nub.git' },
+silly resolved     keywords: [ 'unique', 'uniq', 'uniqBy', 'nub', 'nubBy' ],
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engine: { node: '>=0.4' },
+silly resolved     _id: 'nub@0.0.0',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'e3d3b604b290a71c2657571a7761d63db14befa2' } },
+silly resolved   { name: 'buffer-browserify',
+silly resolved     version: '0.0.3',
+silly resolved     description: 'buffer module compatibility for browserify',
+silly resolved     main: 'index.js',
+silly resolved     browserify: 'index.js',
+silly resolved     directories: { test: 'test' },
+silly resolved     dependencies: { 'base64-js': '0.0.2' },
+silly resolved     devDependencies: { tap: '0.2.x' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/toots/buffer-browserify.git' },
+silly resolved     keywords: [ 'buffer', 'browserify', 'compatible', 'meatless', 'browser' ],
+silly resolved     author: { name: 'Romain Beauxis', email: 'toots@rastageeks.org' },
+silly resolved     scripts: { test: 'node node_modules/tap/bin/tap.js test/*.js' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engine: { node: '>=0.6' },
+silly resolved     _id: 'buffer-browserify@0.0.3',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '7497f470422e66147689b5b75c7dbc6458a10167' } },
+silly resolved   { name: 'deputy',
+silly resolved     description: 'caching layer for detective',
+silly resolved     version: '0.0.4',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-deputy.git' },
+silly resolved     main: 'index.js',
+silly resolved     keywords: [ 'detective', 'require', 'cache' ],
+silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     dependencies: { mkdirp: '~0.3.3', detective: '~0.2.0' },
+silly resolved     devDependencies: { tap: '0.0.x' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     license: 'MIT',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     _id: 'deputy@0.0.4',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'b2da7859492b46a98fda3f42a9552f2957e8ef82' } },
+silly resolved   { name: 'syntax-error',
+silly resolved     version: '0.0.0',
+silly resolved     description: 'detect and report syntax errors in source code strings',
+silly resolved     main: 'index.js',
+silly resolved     bin: {},
+silly resolved     directories: { example: 'example', test: 'test' },
+silly resolved     dependencies: { esprima: '~0.9.9' },
+silly resolved     devDependencies: { tap: '~0.3.0' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-syntax-error.git' },
+silly resolved     homepage: 'https://github.com/substack/node-syntax-error',
+silly resolved     keywords: [ 'syntax', 'error', 'esprima', 'stack', 'line', 'column' ],
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     license: 'MIT',
+silly resolved     engine: { node: '>=0.6' },
+silly resolved     _id: 'syntax-error@0.0.0',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '68ae55fa90e54a6a901618c563a402085c543f30' } },
+silly resolved   { name: 'commondir',
+silly resolved     version: '0.0.1',
+silly resolved     description: 'Compute the closest common parent for file paths',
+silly resolved     main: 'index.js',
+silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { expresso: '0.7.x' },
+silly resolved     scripts: { test: 'expresso' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-commondir.git' },
+silly resolved     keywords: [ 'common', 'path', 'directory', 'file', 'parent', 'root' ],
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engine: { node: '>=0.4' },
+silly resolved     _id: 'commondir@0.0.1',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'aba467a2cacdc885b2029f566acc3fbd779b6845' } },
+silly resolved   { name: 'vm-browserify',
+silly resolved     version: '0.0.1',
+silly resolved     description: 'vm module for the browser',
+silly resolved     main: 'index.js',
+silly resolved     directories: { example: 'example', test: 'test' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/vm-browserify.git' },
+silly resolved     keywords: [ 'vm', 'browser', 'eval' ],
+silly resolved     devDependencies: { tap: '~0.2.1', browserify: '1.9.x' },
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engine: { node: '>=0.4.0' },
+silly resolved     _id: 'vm-browserify@0.0.1',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'a307323a3056056317c5610ec904774a1c449249' } },
+silly resolved   { author: 
+silly resolved      { name: 'Dominic Tarr',
+silly resolved        email: 'dominic.tarr@gmail.com',
+silly resolved        url: 'dominictarr.com' },
+silly resolved     name: 'crypto-browserify',
+silly resolved     description: 'partial implementation of crypto for the browser',
+silly resolved     version: '0.1.1',
+silly resolved     homepage: 'https://github.com/dominictarr/crypto-browserify',
+silly resolved     repository: { url: '' },
+silly resolved     scripts: { test: 'node test/simple.js' },
+silly resolved     engines: { node: '*' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _id: 'crypto-browserify@0.1.1',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '602725962896f1c79aa96038e8e86f8204cb59db' } },
+silly resolved   { name: 'http-browserify',
+silly resolved     version: '0.1.3',
+silly resolved     description: 'http module compatability for browserify',
+silly resolved     main: 'index.js',
+silly resolved     browserify: 'index.js',
+silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+silly resolved     dependencies: { 'concat-stream': '0.0.8' },
+silly resolved     devDependencies: { ecstatic: '~0.1.6' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/http-browserify.git' },
+silly resolved     keywords: [ 'http', 'browserify', 'compatible', 'meatless', 'browser' ],
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engine: { node: '>=0.4' },
+silly resolved     _id: 'http-browserify@0.1.3',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'e68575773e54e92119eaedb490236f8d9c4f2c44' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'resolve',
+silly resolved     description: 'A more hookable require.resolve() implementation',
+silly resolved     version: '0.2.3',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-resolve.git' },
+silly resolved     main: 'index.js',
+silly resolved     keywords: [ 'resolve', 'require', 'node', 'module' ],
+silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { tap: '~0.2.4' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     license: 'MIT',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     _id: 'resolve@0.2.3',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '9c70639077245d66a85a02953ef52306b3b6ca19' } },
+silly resolved   { name: 'detective',
+silly resolved     description: 'Find all calls to require() no matter how crazily nested using a proper walk of the AST',
+silly resolved     version: '0.2.1',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-detective.git' },
+silly resolved     main: 'index.js',
+silly resolved     keywords: [ 'require', 'source', 'analyze', 'ast' ],
+silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     dependencies: { esprima: '~0.9.9' },
+silly resolved     devDependencies: { tap: '~0.2.6' },
+silly resolved     engines: { node: '>=0.6.0' },
+silly resolved     license: 'MIT',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     _id: 'detective@0.2.1',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'fe91b36acb3c2adc197d91c7f91c5e80b7bc9891' } },
+silly resolved   { name: 'optimist',
+silly resolved     version: '0.3.5',
+silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+silly resolved     main: './index.js',
+silly resolved     directories: { lib: '.', test: 'test', example: 'example' },
+silly resolved     dependencies: { wordwrap: '~0.0.2' },
+silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.2.4' },
+silly resolved     scripts: { test: 'tap ./test/*.js' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-optimist.git' },
+silly resolved     keywords: 
+silly resolved      [ 'argument',
+silly resolved        'args',
+silly resolved        'option',
+silly resolved        'parser',
+silly resolved        'parsing',
+silly resolved        'cli',
+silly resolved        'command' ],
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engine: { node: '>=0.4' },
+silly resolved     _id: 'optimist@0.3.5',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '43480ced0e22bfcbe2aa0cc098fbd9f70bf92688' } },
+silly resolved   { name: 'coffee-script',
+silly resolved     description: 'Unfancy JavaScript',
+silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+silly resolved     author: { name: 'Jeremy Ashkenas' },
+silly resolved     version: '1.4.0',
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'https://raw.github.com/jashkenas/coffee-script/master/LICENSE' } ],
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     directories: { lib: './lib/coffee-script' },
+silly resolved     main: './lib/coffee-script/coffee-script',
+silly resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+silly resolved     scripts: { test: 'node ./bin/cake test' },
+silly resolved     homepage: 'http://coffeescript.org',
+silly resolved     bugs: { name: 'https://github.com/jashkenas/coffee-script/issues' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/jashkenas/coffee-script.git' },
+silly resolved     devDependencies: { 'uglify-js': '>=1.0.0', jison: '>=0.2.0' },
+silly resolved     _id: 'coffee-script@1.4.0',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'b654b586776b3319d51e462289f120925d0b6ae5' } } ]
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify nub@0.0.0
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify buffer-browserify@0.0.3
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify deputy@0.0.4
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify syntax-error@0.0.0
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify commondir@0.0.1
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify vm-browserify@0.0.1
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify crypto-browserify@0.1.1
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify http-browserify@0.1.3
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify resolve@0.2.3
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify detective@0.2.1
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify optimist@0.3.5
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify coffee-script@1.4.0
+info installOne nub@0.0.0
+info installOne buffer-browserify@0.0.3
+info installOne deputy@0.0.4
+info installOne syntax-error@0.0.0
+info installOne commondir@0.0.1
+info installOne vm-browserify@0.0.1
+info installOne crypto-browserify@0.1.1
+info installOne http-browserify@0.1.3
+info installOne resolve@0.2.3
+info installOne detective@0.2.1
+info installOne optimist@0.3.5
+info installOne coffee-script@1.4.0
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\nub
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\syntax-error
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\commondir
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\vm-browserify
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\crypto-browserify
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\http-browserify
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\resolve
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\detective
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\coffee-script
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\nub\0.0.0\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\buffer-browserify\0.0.3\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\deputy\0.0.4\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\syntax-error\0.0.0\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\commondir\0.0.1\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\vm-browserify\0.0.1\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\crypto-browserify\0.1.1\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\http-browserify\0.1.3\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\resolve\0.2.3\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\detective\0.2.1\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\optimist\0.3.5\package\package.json
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\coffee-script\1.4.0\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___deputy.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___nub.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___buffer-browserify.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___syntax-error.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___http-browserify.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___vm-browserify.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___detective.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___resolve.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___coffee-script.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___crypto-browserify.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___optimist.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___commondir.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___http-browserify.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___syntax-error.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___optimist.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___vm-browserify.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___commondir.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___buffer-browserify.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___deputy.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___coffee-script.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___nub.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\http-browserify
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___resolve.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___crypto-browserify.npm 755
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___detective.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\syntax-error
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\vm-browserify
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\commondir
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\coffee-script
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\nub
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\resolve
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\crypto-browserify
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\detective
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___nub.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\nub
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___nub.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\nub' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\nub\package.json
+verbose loadDefaults nub@0.0.0
+info preinstall nub@0.0.0
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\nub\package.json
+silly resolved []
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\nub
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\nub
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\nub\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules' ]
+info linkStuff nub@0.0.0
+verbose linkBins nub@0.0.0
+verbose linkMans nub@0.0.0
+verbose rebuildBundles nub@0.0.0
+info install nub@0.0.0
+info postinstall nub@0.0.0
+silly afterUntar undefined
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___commondir.npm\package
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___deputy.npm\package
+verbose installOne cb nub@0.0.0
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\commondir
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___commondir.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\commondir' ]
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___deputy.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\deputy' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\commondir\package.json
+verbose loadDefaults commondir@0.0.1
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\package.json
+verbose loadDefaults deputy@0.0.4
+info preinstall commondir@0.0.1
+info preinstall deputy@0.0.4
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\commondir\package.json
+silly resolved []
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\commondir
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\commondir
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\commondir\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules' ]
+info linkStuff commondir@0.0.1
+verbose linkBins commondir@0.0.1
+verbose linkMans commondir@0.0.1
+verbose rebuildBundles commondir@0.0.1
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\package.json
+info install commondir@0.0.1
+info postinstall commondir@0.0.1
+silly afterUntar undefined
+verbose installOne cb commondir@0.0.1
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___syntax-error.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\syntax-error
+verbose cache add [ 'mkdirp@~0.3.3', null ]
+silly cache add: name, spec, args [ undefined, 'mkdirp@~0.3.3', [ 'mkdirp@~0.3.3', null ] ]
+verbose parsed url { pathname: 'mkdirp@~0.3.3',
+verbose parsed url   path: 'mkdirp@~0.3.3',
+verbose parsed url   href: 'mkdirp@~0.3.3' }
+silly cache add: name, spec, args [ 'mkdirp', '~0.3.3', [ 'mkdirp', '~0.3.3' ] ]
+verbose parsed url { pathname: '~0.3.3', path: '~0.3.3', href: '~0.3.3' }
+verbose addNamed [ 'mkdirp', '~0.3.3' ]
+verbose addNamed [ null, '>=0.3.3- <0.4.0-' ]
+silly name, range, hasData [ 'mkdirp', '>=0.3.3- <0.4.0-', false ]
+verbose raw, before any munging mkdirp
+verbose url resolving [ 'http://registry.npmjs.org/', './mkdirp' ]
+verbose url resolved http://registry.npmjs.org/mkdirp
+verbose etag "4VY93YHIIJ11G0NNP12CLD9IC"
+http GET http://registry.npmjs.org/mkdirp
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___syntax-error.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\syntax-error' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\syntax-error\package.json
+verbose loadDefaults syntax-error@0.0.0
+info preinstall syntax-error@0.0.0
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___buffer-browserify.npm\package
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\syntax-error\package.json
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify
+verbose cache add [ 'esprima@~0.9.9', null ]
+silly cache add: name, spec, args [ undefined, 'esprima@~0.9.9', [ 'esprima@~0.9.9', null ] ]
+verbose parsed url { pathname: 'esprima@~0.9.9',
+verbose parsed url   path: 'esprima@~0.9.9',
+verbose parsed url   href: 'esprima@~0.9.9' }
+silly cache add: name, spec, args [ 'esprima', '~0.9.9', [ 'esprima', '~0.9.9' ] ]
+verbose parsed url { pathname: '~0.9.9', path: '~0.9.9', href: '~0.9.9' }
+verbose addNamed [ 'esprima', '~0.9.9' ]
+verbose addNamed [ null, '>=0.9.9- <0.10.0-' ]
+silly name, range, hasData [ 'esprima', '>=0.9.9- <0.10.0-', false ]
+silly afterUntar undefined
+verbose raw, before any munging esprima
+verbose url resolving [ 'http://registry.npmjs.org/', './esprima' ]
+verbose url resolved http://registry.npmjs.org/esprima
+http GET http://registry.npmjs.org/esprima
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___vm-browserify.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\vm-browserify
+silly afterUntar undefined
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___buffer-browserify.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\buffer-browserify' ]
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___crypto-browserify.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\crypto-browserify
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\package.json
+verbose loadDefaults buffer-browserify@0.0.3
+info preinstall buffer-browserify@0.0.3
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\package.json
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___vm-browserify.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\vm-browserify' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\vm-browserify\package.json
+verbose loadDefaults vm-browserify@0.0.1
+info preinstall vm-browserify@0.0.1
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___crypto-browserify.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\crypto-browserify' ]
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\vm-browserify\package.json
+silly resolved []
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\vm-browserify
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\vm-browserify
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\vm-browserify\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules' ]
+info linkStuff vm-browserify@0.0.1
+verbose linkBins vm-browserify@0.0.1
+verbose linkMans vm-browserify@0.0.1
+verbose rebuildBundles vm-browserify@0.0.1
+info install vm-browserify@0.0.1
+verbose cache add [ 'base64-js@0.0.2', null ]
+silly cache add: name, spec, args [ undefined, 'base64-js@0.0.2', [ 'base64-js@0.0.2', null ] ]
+verbose parsed url { pathname: 'base64-js@0.0.2',
+verbose parsed url   path: 'base64-js@0.0.2',
+verbose parsed url   href: 'base64-js@0.0.2' }
+silly cache add: name, spec, args [ 'base64-js', '0.0.2', [ 'base64-js', '0.0.2' ] ]
+verbose parsed url { pathname: '0.0.2', path: '0.0.2', href: '0.0.2' }
+verbose addNamed [ 'base64-js', '0.0.2' ]
+verbose addNamed [ '0.0.2', '0.0.2' ]
+info postinstall vm-browserify@0.0.1
+verbose raw, before any munging base64-js/0.0.2
+verbose url resolving [ 'http://registry.npmjs.org/', './base64-js/0.0.2' ]
+verbose url resolved http://registry.npmjs.org/base64-js/0.0.2
+http GET http://registry.npmjs.org/base64-js/0.0.2
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\crypto-browserify\package.json
+verbose loadDefaults crypto-browserify@0.1.1
+verbose installOne cb vm-browserify@0.0.1
+info preinstall crypto-browserify@0.1.1
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\crypto-browserify\package.json
+silly resolved []
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\crypto-browserify
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\crypto-browserify
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\crypto-browserify\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules' ]
+info linkStuff crypto-browserify@0.1.1
+verbose linkBins crypto-browserify@0.1.1
+verbose linkMans crypto-browserify@0.1.1
+verbose rebuildBundles crypto-browserify@0.1.1
+info install crypto-browserify@0.1.1
+info postinstall crypto-browserify@0.1.1
+verbose installOne cb crypto-browserify@0.1.1
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___detective.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\detective
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___http-browserify.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\http-browserify
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___detective.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\detective' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\detective\package.json
+verbose loadDefaults detective@0.2.1
+info preinstall detective@0.2.1
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___http-browserify.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\http-browserify' ]
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\detective\package.json
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\http-browserify\package.json
+verbose loadDefaults http-browserify@0.1.3
+info preinstall http-browserify@0.1.3
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\http-browserify\package.json
+verbose cache add [ 'esprima@~0.9.9', null ]
+silly cache add: name, spec, args [ undefined, 'esprima@~0.9.9', [ 'esprima@~0.9.9', null ] ]
+verbose parsed url { pathname: 'esprima@~0.9.9',
+verbose parsed url   path: 'esprima@~0.9.9',
+verbose parsed url   href: 'esprima@~0.9.9' }
+silly cache add: name, spec, args [ 'esprima', '~0.9.9', [ 'esprima', '~0.9.9' ] ]
+verbose parsed url { pathname: '~0.9.9', path: '~0.9.9', href: '~0.9.9' }
+verbose addNamed [ 'esprima', '~0.9.9' ]
+verbose cache add [ 'concat-stream@0.0.8', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'concat-stream@0.0.8',
+silly cache add: name, spec, args   [ 'concat-stream@0.0.8', null ] ]
+verbose parsed url { pathname: 'concat-stream@0.0.8',
+verbose parsed url   path: 'concat-stream@0.0.8',
+verbose parsed url   href: 'concat-stream@0.0.8' }
+silly cache add: name, spec, args [ 'concat-stream', '0.0.8', [ 'concat-stream', '0.0.8' ] ]
+verbose parsed url { pathname: '0.0.8', path: '0.0.8', href: '0.0.8' }
+verbose addNamed [ 'concat-stream', '0.0.8' ]
+verbose addNamed [ '0.0.8', '0.0.8' ]
+verbose raw, before any munging concat-stream/0.0.8
+verbose url resolving [ 'http://registry.npmjs.org/', './concat-stream/0.0.8' ]
+verbose url resolved http://registry.npmjs.org/concat-stream/0.0.8
+http GET http://registry.npmjs.org/concat-stream/0.0.8
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___resolve.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\resolve
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___optimist.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___resolve.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\resolve' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\resolve\package.json
+verbose loadDefaults resolve@0.2.3
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___optimist.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\optimist' ]
+info preinstall resolve@0.2.3
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\resolve\package.json
+silly resolved []
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\resolve
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\resolve
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\resolve\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules' ]
+info linkStuff resolve@0.2.3
+verbose linkBins resolve@0.2.3
+verbose linkMans resolve@0.2.3
+verbose rebuildBundles resolve@0.2.3
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\package.json
+verbose loadDefaults optimist@0.3.5
+info install resolve@0.2.3
+info postinstall resolve@0.2.3
+info preinstall optimist@0.3.5
+verbose installOne cb resolve@0.2.3
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\package.json
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\___coffee-script.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\coffee-script
+verbose cache add [ 'wordwrap@~0.0.2', null ]
+silly cache add: name, spec, args [ undefined, 'wordwrap@~0.0.2', [ 'wordwrap@~0.0.2', null ] ]
+verbose parsed url { pathname: 'wordwrap@~0.0.2',
+verbose parsed url   path: 'wordwrap@~0.0.2',
+verbose parsed url   href: 'wordwrap@~0.0.2' }
+silly cache add: name, spec, args [ 'wordwrap', '~0.0.2', [ 'wordwrap', '~0.0.2' ] ]
+verbose parsed url { pathname: '~0.0.2', path: '~0.0.2', href: '~0.0.2' }
+verbose addNamed [ 'wordwrap', '~0.0.2' ]
+verbose addNamed [ null, '>=0.0.2- <0.1.0-' ]
+silly name, range, hasData [ 'wordwrap', '>=0.0.2- <0.1.0-', false ]
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\___coffee-script.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\coffee-script' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\coffee-script\package.json
+verbose loadDefaults coffee-script@1.4.0
+info preinstall coffee-script@1.4.0
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\coffee-script\package.json
+silly resolved []
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\coffee-script
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\coffee-script
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\coffee-script\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules' ]
+info linkStuff coffee-script@1.4.0
+verbose linkBins coffee-script@1.4.0
+verbose bins linking [ { coffee: './bin/coffee', cake: './bin/cake' },
+verbose bins linking   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\.bin',
+verbose bins linking   false ]
+verbose linkMans coffee-script@1.4.0
+verbose rebuildBundles coffee-script@1.4.0
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\.bin'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\.bin 755
+info install coffee-script@1.4.0
+info postinstall coffee-script@1.4.0
+verbose installOne cb coffee-script@1.4.0
+verbose raw, before any munging wordwrap
+verbose url resolving [ 'http://registry.npmjs.org/', './wordwrap' ]
+verbose url resolved http://registry.npmjs.org/wordwrap
+verbose etag "7CRB5CUFW01PZBEQA9MHWLLU"
+http GET http://registry.npmjs.org/wordwrap
+http 200 http://registry.npmjs.org/mkdirp
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"4VY93YHIIJ11G0NNP12CLD9IC"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:13 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '13357',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\mkdirp 755
+silly name, range, hasData 2 [ 'mkdirp', '>=0.3.3- <0.4.0-', true ]
+silly versions [ 'mkdirp',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3',
+silly versions     '0.3.4' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'f8c81d213b7299a031f193a57d752a17d2f6c7d8',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz' } ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\mkdirp\0.3.4\package\package.json
+verbose loadDefaults mkdirp@0.3.4
+silly resolved [ { name: 'mkdirp',
+silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+silly resolved     version: '0.3.4',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     main: './index',
+silly resolved     keywords: [ 'mkdir', 'directory' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-mkdirp.git' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     devDependencies: { tap: '~0.2.4' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'mkdirp@0.3.4',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true } ]
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy mkdirp@0.3.4
+info installOne mkdirp@0.3.4
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\mkdirp
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\mkdirp\0.3.4\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\___mkdirp.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\___mkdirp.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\mkdirp
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\___mkdirp.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\mkdirp
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\deputy\\node_modules\\___mkdirp.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\deputy\\node_modules\\mkdirp' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\mkdirp\package.json
+verbose loadDefaults mkdirp@0.3.4
+info preinstall mkdirp@0.3.4
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\mkdirp\package.json
+silly resolved []
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\mkdirp
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\mkdirp
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\node_modules\mkdirp\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\deputy\\node_modules' ]
+info linkStuff mkdirp@0.3.4
+verbose linkBins mkdirp@0.3.4
+verbose linkMans mkdirp@0.3.4
+verbose rebuildBundles mkdirp@0.3.4
+info install mkdirp@0.3.4
+info postinstall mkdirp@0.3.4
+verbose installOne cb mkdirp@0.3.4
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\deputy\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules' ]
+info linkStuff deputy@0.0.4
+verbose linkBins deputy@0.0.4
+verbose linkMans deputy@0.0.4
+verbose rebuildBundles deputy@0.0.4
+verbose rebuildBundles [ 'mkdirp' ]
+info install deputy@0.0.4
+info postinstall deputy@0.0.4
+verbose installOne cb deputy@0.0.4
+http 200 http://registry.npmjs.org/esprima
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3HFKBJOG4H5HWKZ2ISDO1WXX3"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:13 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '20405',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\esprima'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\esprima 755
+silly name, range, hasData 2 [ 'esprima', '>=0.9.9- <0.10.0-', true ]
+silly versions [ 'esprima',
+silly versions   [ '0.7.0',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.9.4',
+silly versions     '0.9.5',
+silly versions     '0.9.6',
+silly versions     '0.9.7',
+silly versions     '0.9.8',
+silly versions     '0.9.9',
+silly versions     '1.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '1b90925c975d632d7282939c3bb9c3a423c30490',
+verbose bin dist     tarball: 'http://registry.npmjs.org/esprima/-/esprima-0.9.9.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/esprima/-/esprima-0.9.9.tgz',
+verbose addRemoteTarball   '1b90925c975d632d7282939c3bb9c3a423c30490' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477329-0.8424061636906117'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477329-0.8424061636906117 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477329-0.8424061636906117\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477329-0.8424061636906117 755
+http GET http://registry.npmjs.org/esprima/-/esprima-0.9.9.tgz
+http 200 http://registry.npmjs.org/base64-js/0.0.2
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"4MPZKXVWPE3NKT6Z09BPYTLB8"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:13 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '794',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '024f0f72afa25b75f9c0ee73cd4f55ec1bed9784',
+verbose bin dist     tarball: 'http://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz',
+verbose addRemoteTarball   '024f0f72afa25b75f9c0ee73cd4f55ec1bed9784' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407 755
+http GET http://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz
+http 200 http://registry.npmjs.org/concat-stream/0.0.8
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"8JCBQ67HTX2PEYJ31Y5U8HDF"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:13 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1674',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'a7ea79d0ccb0b40499091db930050fb304f62d7d',
+verbose bin dist     tarball: 'http://registry.npmjs.org/concat-stream/-/concat-stream-0.0.8.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/concat-stream/-/concat-stream-0.0.8.tgz',
+verbose addRemoteTarball   'a7ea79d0ccb0b40499091db930050fb304f62d7d' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239 755
+verbose fetch to C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\tmp.tgz
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239 755
+http GET http://registry.npmjs.org/concat-stream/-/concat-stream-0.0.8.tgz
+http 200 http://registry.npmjs.org/wordwrap
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7CRB5CUFW01PZBEQA9MHWLLU"',
+silly get cb     date: 'Sat, 27 Oct 2012 00:41:13 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '2237',
+silly get cb     connection: 'Keep-Alive' } ]
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\wordwrap 755
+silly name, range, hasData 2 [ 'wordwrap', '>=0.0.2- <0.1.0-', true ]
+silly versions [ 'wordwrap', [ '0.0.1', '0.0.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'b79669bb42ecb409f83d583cad52ca17eaa1643f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz' } ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\wordwrap\0.0.2\package\package.json
+verbose loadDefaults wordwrap@0.0.2
+silly resolved [ { name: 'wordwrap',
+silly resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+silly resolved     version: '0.0.2',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+silly resolved     main: './index.js',
+silly resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+silly resolved     scripts: { test: 'expresso' },
+silly resolved     devDependencies: { expresso: '=0.7.x' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     license: 'MIT/X11',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     _id: 'wordwrap@0.0.2',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true } ]
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist wordwrap@0.0.2
+info installOne wordwrap@0.0.2
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\wordwrap
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\wordwrap\0.0.2\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\___wordwrap.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\___wordwrap.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\wordwrap
+silly gunzTarPerm modes [ '755', '644' ]
+http 200 http://registry.npmjs.org/esprima/-/esprima-0.9.9.tgz
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\___wordwrap.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\wordwrap
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\optimist\\node_modules\\___wordwrap.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\optimist\\node_modules\\wordwrap' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\wordwrap\package.json
+verbose loadDefaults wordwrap@0.0.2
+info preinstall wordwrap@0.0.2
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\wordwrap\package.json
+silly resolved []
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\wordwrap
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\wordwrap
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\node_modules\wordwrap\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\optimist\\node_modules' ]
+info linkStuff wordwrap@0.0.2
+verbose linkBins wordwrap@0.0.2
+verbose linkMans wordwrap@0.0.2
+verbose rebuildBundles wordwrap@0.0.2
+info install wordwrap@0.0.2
+info postinstall wordwrap@0.0.2
+verbose installOne cb wordwrap@0.0.2
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\optimist\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules' ]
+info linkStuff optimist@0.3.5
+verbose linkBins optimist@0.3.5
+verbose linkMans optimist@0.3.5
+verbose rebuildBundles optimist@0.3.5
+verbose rebuildBundles [ 'wordwrap' ]
+info install optimist@0.3.5
+info postinstall optimist@0.3.5
+verbose installOne cb optimist@0.3.5
+http 200 http://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz
+silly updated sha bytes 1982
+info shasum 024f0f72afa25b75f9c0ee73cd4f55ec1bed9784
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298477349-0.1874214680865407\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298477349-0.1874214680865407\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\package\package.json
+verbose loadDefaults base64-js@0.0.2
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\package C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298477349-0.1874214680865407\\package',
+silly dir, dirLen   94 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477349-0.1874214680865407\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\base64-js\\0.0.2\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\base64-js\\0.0.2\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\package\package.json
+verbose loadDefaults base64-js@0.0.2
+silly updated sha bytes 2027
+info shasum c862f6a4cf25e66d7cfe476f16584e8eb03c634c
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\package.tgz
+silly resolved [ { author: 
+silly resolved      { name: 'T. Jameson Little',
+silly resolved        email: 't.jameson.little@gmail.com' },
+silly resolved     name: 'base64-js',
+silly resolved     description: 'Base64 encoding/decoding in pure JS',
+silly resolved     version: '0.0.2',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/beatgammit/deflate-js.git' },
+silly resolved     main: 'lib/b64.js',
+silly resolved     scripts: { test: 'cd test; node runner.js; cd -' },
+silly resolved     engines: { node: '>= 0.4' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _id: 'base64-js@0.0.2',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'c862f6a4cf25e66d7cfe476f16584e8eb03c634c' } } ]
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify base64-js@0.0.2
+info installOne base64-js@0.0.2
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\base64-js
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\base64-js\0.0.2\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\___base64-js.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\___base64-js.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\base64-js
+silly gunzTarPerm modes [ '755', '644' ]
+http 200 http://registry.npmjs.org/concat-stream/-/concat-stream-0.0.8.tgz
+silly updated sha bytes 1346
+info shasum a7ea79d0ccb0b40499091db930050fb304f62d7d
+info shasum C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\___base64-js.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\base64-js
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\buffer-browserify\\node_modules\\___base64-js.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\buffer-browserify\\node_modules\\base64-js' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\base64-js\package.json
+verbose loadDefaults base64-js@0.0.2
+info preinstall base64-js@0.0.2
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298477372-0.3312086893711239\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298477372-0.3312086893711239\\package' ]
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\base64-js\package.json
+silly resolved []
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\base64-js
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\base64-js
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\node_modules\base64-js\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules\\buffer-browserify\\node_modules' ]
+info linkStuff base64-js@0.0.2
+verbose linkBins base64-js@0.0.2
+verbose linkMans base64-js@0.0.2
+verbose rebuildBundles base64-js@0.0.2
+info install base64-js@0.0.2
+verbose caching C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\package\package.json
+verbose loadDefaults concat-stream@0.0.8
+info postinstall base64-js@0.0.2
+verbose installOne cb base64-js@0.0.2
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify
+info build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\buffer-browserify\package.json
+verbose linkStuff [ true,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules' ]
+info linkStuff buffer-browserify@0.0.3
+verbose linkBins buffer-browserify@0.0.3
+verbose linkMans buffer-browserify@0.0.3
+verbose rebuildBundles buffer-browserify@0.0.3
+verbose rebuildBundles [ 'base64-js' ]
+info install buffer-browserify@0.0.3
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+info postinstall buffer-browserify@0.0.3
+verbose installOne cb buffer-browserify@0.0.3
+verbose from cache C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\package\package.json
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\package
+verbose pack C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\package C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\package.tgz
+silly makeList C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\package
+silly dir, dirLen [ 'C:\\Users\\AvilaC\\AppData\\Local\\Temp\\npm-1351298473716\\1351298477372-0.3312086893711239\\package',
+silly dir, dirLen   94 ]
+verbose tarball C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\package.tgz
+verbose parent C:\Users\AvilaC\AppData\Local\Temp\npm-1351298473716\1351298477372-0.3312086893711239\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\___package.npm'
+verbose mkdir done: C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\___package.npm\package
+verbose rm'ed C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\package
+verbose renamed [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\concat-stream\\0.0.8\\___package.npm\\package',
+verbose renamed   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm-cache\\concat-stream\\0.0.8\\package' ]
+verbose caching C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\package\package.json
+verbose loadDefaults concat-stream@0.0.8
+silly updated sha bytes 1322
+info shasum 5ea0278f3d6db8dfe85fffdfb3f4f0bf0a143872
+info shasum C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\package.tgz
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\package\package.json
+verbose chmod C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\package.tgz 644
+silly skipping chown for windows C:\Users\AvilaC\AppData\Roaming\npm-cache\concat-stream\0.0.8\package.tgz
+silly resolved [ { name: 'concat-stream',
+silly resolved     description: 'writable stream that concatenates strings or data and calls a callback with the result',
+silly resolved     tags: [ 'stream', 'simple', 'util', 'utility' ],
+silly resolved     version: '0.0.8',
+silly resolved     author: { name: 'Max Ogden', email: 'max@maxogden.com' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/maxogden/node-concat-stream.git' },
+silly resolved     bugs: { url: 'http://github.com/maxogden/node-concat-stream/issues' },
+silly resolved     engines: [ 'node >= 0.8.0', node: ' >= 0.8.0' ],
+silly resolved     _id: 'concat-stream@0.0.8',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '5ea0278f3d6db8dfe85fffdfb3f4f0bf0a143872' } } ]
+info into C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\http-browserify concat-stream@0.0.8
+info installOne concat-stream@0.0.8
+verbose installOne cb concat-stream@0.0.8
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\http-browserify
+ERR! error installing http-browserify@0.1.3
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\http-browserify
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\node_modules\http-browserify\package.json
+info preuninstall http-browserify@0.1.3
+info uninstall http-browserify@0.1.3
+verbose unbuild http-browserify@0.1.3 [ false,
+verbose unbuild http-browserify@0.1.3   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose unbuild http-browserify@0.1.3   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules\\browserify\\node_modules' ]
+info postuninstall http-browserify@0.1.3
+verbose installOne cb http-browserify@0.1.3
+verbose about to build C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify
+ERR! error installing browserify@1.16.1
+info unbuild C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify
+verbose from cache C:\Users\AvilaC\AppData\Roaming\npm\node_modules\browserify\package.json
+info preuninstall browserify@1.16.1
+info uninstall browserify@1.16.1
+verbose unbuild browserify@1.16.1 [ true,
+verbose unbuild browserify@1.16.1   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules',
+verbose unbuild browserify@1.16.1   'C:\\Users\\AvilaC\\AppData\\Roaming\\npm\\node_modules' ]
+verbose binRoot [ 'C:\\Users\\AvilaC\\AppData\\Roaming\\npm',
+verbose binRoot   { browserify: 'bin/cmd.js' } ]
+info postuninstall browserify@1.16.1
+verbose installOne cb browserify@1.16.1
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: concat-stream@0.0.8
+ERR! Required: ["node >= 0.8.0"]
+ERR! Actual:   {"npm":"1.1.1","node":"0.6.11"}
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "browserify"
+ERR! cwd C:\Users\AvilaC\Projects\js-RestTestBoilerplate
+ERR! node -v v0.6.11
+ERR! npm -v 1.1.1
+ERR! code ENOTSUP
+ERR! message Unsupported
+ERR! errno {}
+verbose exit [ 1, true ]
