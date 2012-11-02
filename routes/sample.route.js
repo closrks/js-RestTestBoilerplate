@@ -2,8 +2,6 @@ var SampleController = require('../controllers/sample.controller.js');
 
 exports.CreateSampleRoutes = function (dbHost, dbPort) {
 
-	var dbHost = 'localhost';
-	var dbPort = 27017;
 	var dbName = 'SampleDB';
 	var dbCollectionName = "SampleCollection";
 	var sampleController = new SampleController(dbHost, dbPort, dbName, dbCollectionName);	

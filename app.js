@@ -8,6 +8,10 @@ var express = require('express')
   , http = require('http')
   , path = require('path');
 
+
+var dbHost = 'localhost';
+var dbPort = 27017;
+sample = sample.CreateSampleRoutes(dbHost, dbPort)
 var app = express();
 
 app.configure(function(){
